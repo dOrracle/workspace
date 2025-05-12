@@ -1,15 +1,16 @@
-# 80's VHS Glitch Hello World
+# Matrix Text Formation Effect
 
-A retro-styled web application that displays "Hello World" with a dark green and black color scheme, featuring:
+A retro-styled web application that features rainbow-colored Matrix-like streams that gradually form the text "HELLO MATRIX", featuring:
 
-1. 80's VHS glitch effects
-2. Rainbow-colored Matrix-like streams flowing in the background
-3. Scan lines and tracking artifacts reminiscent of VHS tapes
+1. Rainbow-colored Matrix-like streams flowing in the background
+2. Text particles that emerge from the Matrix streams to form the text
+3. VHS-style scan lines and glitch effects
 
 ## Features
 
 - **Matrix Background**: Rainbow-colored character streams that flow down the screen at varying speeds
-- **VHS Glitch Effects**: Text distortion, scan lines, and tracking artifacts
+- **Text Formation**: Matrix particles gradually converge to form the text "HELLO MATRIX"
+- **VHS Effects**: Scan lines and glitch artifacts for a retro feel
 - **Retro Color Scheme**: Dark green text on black background, reminiscent of early computer terminals
 
 ## How to Run
@@ -39,8 +40,9 @@ A retro-styled web application that displays "Hello World" with a dark green and
 ## Implementation Details
 
 - The Matrix background is created using HTML5 Canvas and JavaScript
-- The glitch effect is achieved using CSS animations and pseudo-elements
-- VHS scan lines and tracking artifacts are simulated using CSS pseudo-elements and animations
+- The text formation effect uses particle animation to move Matrix characters into position
+- Multiple canvas layers are used for different visual elements
+- VHS scan lines and glitch effects are created using a separate canvas layer
 - Rainbow colors are applied to the Matrix streams with a slow cycling effect
 
 ## License
